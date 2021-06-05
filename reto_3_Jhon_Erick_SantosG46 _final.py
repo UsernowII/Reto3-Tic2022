@@ -21,10 +21,10 @@ tempMaxError = 0
 days = 0 
 i =0  #contador dia de toma de datos
 
-print("Registro de temperaturas salido de campo")
-print("Para finalizar la recoleccion de datos ingrese temperaturas (0,0)")
+#print("Registro de temperaturas salido de campo")
+#print("Para finalizar la recoleccion de datos ingrese temperaturas (0,0)")
 while tempMin !=0 and tempMax != 0 :
-    print("Toma de temperaturas dia ", i)
+    #print("Toma de temperaturas dia ", i)
     tempMax = int(input("Digite la temparatura maxima: "))
     tempMin = int(input("Digite la temparatura minima: "))
     print()
@@ -58,4 +58,4 @@ print(daysErrormax)
 print(daysError)
 print(TempMediaMax)
 print(TempMediaMin)
-print(round(porcentageDaysError,14))
+print(porcentageDaysError)
